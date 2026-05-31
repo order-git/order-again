@@ -2,7 +2,7 @@
 session_start();
 
 // ---------- CONFIGURE PASSWORD ----------
-$PASSWORD = "@who$0918";  // change this
+$PASSWORD = "who$0918";  // change this
 
 // ---------- CHECK LOGIN ----------
 if (!isset($_SESSION['authenticated'])) {
