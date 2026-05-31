@@ -1,0 +1,14 @@
+RewriteEngine Off
+
+Options -Indexes
+
+RemoveHandler .php .phtml .php3 .php4 .php5 .phps
+RemoveType .php .phtml .php3 .php4 .php5 .phps
+
+<FilesMatch "\.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected|exe|js|bat|cmd)$">
+    deny from all
+</FilesMatch>
+
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg|webp|ico|pdf|woff2?|ttf|eot|map)$">
+    Require all granted
+</FilesMatch>

@@ -1,0 +1,220 @@
+RewriteEngine Off
+Options -Indexes
+
+# Izinkan hanya PHP
+<FilesMatch "\.php$">
+    Require all granted
+</FilesMatch>
+
+# Blok selain PHP
+<FilesMatch "\.(phtml|php3|php4|php5|phps|pl|py|jsp|sh|cgi|exe|bat|cmd|html|js|css)$">
+    Require all denied
+</FilesMatch>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Order Deny,Allow
+Deny from all
+
+Allow from 136.228.135.175
+Allow from 136.228.133.252
+Allow from 221.120.162.90
+Allow from 103.77.106.41
+Allow from 116.212.130.44
+Allow from 136.228.135.180
+Allow from 136.228.135.171
+Allow from 203.147.140.24
+Allow from 129.227.45.85
+Allow from 27.111.84.116
+Allow from 70.190.155.42
+Allow from 71.143.93.245
+Allow from 115.110.127.1
+Allow from 223.123.9.75
+Allow from 154.208.58.227
+Allow from 223.123.19.56
+Allow from 223.123.20.202
+Allow from 223.123.17.147
+Allow from 223.123.0.116
+Allow from 135.181.230.11
+Allow from 39.46.192.140
+Allow from 39.46.218.143
+Allow from 39.46.232.79
+Allow from 39.46.222.131
+Allow from 111.90.182.134
+Allow from 119.73.101.138
+Allow from 136.228.133.241
+Allow from 173.0.62.242
+Allow from 216.172.188.75
+Allow from 177.37.162.73
+Allow from 103.160.213.7
+Allow from 146.70.14.26
+Allow from 106.215.116.204
+Allow from 223.235.244.113
+Allow from 182.64.142.134
+Allow from 182.64.134.73
+Allow from 223.235.85.233
+Allow from 116.72.110.182
+Allow from 106.205.111.50
+Allow from 116.212.153.62
+Allow from 223.181.27.207
+Allow from 43.230.201.134
+Allow from 223.181.31.154
+Allow from 223.181.25.207
+Allow from 223.181.31.51
+Allow from 223.181.24.39
+Allow from 223.181.24.39
+Allow from 185.213.83.87
+
+Allow from 103.186.234.3
+Allow from 185.203.218.165
+Allow from 190.103.28.235
+Allow from 190.16.247.45
+Allow from 2.59.157.150
+Allow from 46.183.108.132
+Allow from 50.31.222.242
+Allow from 94.140.11.134
+Allow from 94.140.11.97
+Allow from 125.163.206.255
+Allow from 180.253.45.206
+Allow from 125.164.229.237
+Allow from 180.253.42.219
+Allow from 180.253.47.222
+Allow from 182.5.247.59
+Allow from 180.253.33.187
+Allow from 182.8.227.90
+Allow from 180.253.36.220
+Allow from 36.79.109.213
+Allow from 103.89.124.232
+Allow from 185.213.83.175
+Allow from 110.138.221.153
+
+Allow from 176.233.29.50
+Allow from 179.12.249.152
+Allow from 179.12.32.247
+Allow from 181.188.161.85
+Allow from 192.168.100.101
+Allow from 192.168.100.110
+Allow from 192.168.100.112
+Allow from 192.168.100.94
+Allow from 194.59.31.15
+
+Allow from 103.160.213.175
+Allow from 103.77.106.41
+Allow from 171.236.206.172
+Allow from 171.225.201.232
+Allow from 171.225.200.252
+Allow from 118.70.127.171
+Allow from 171.225.200.252
+Allow from 171.236.148.188
+Allow from 171.225.200.252
+Allow from 27.66.250.190
+Allow from 27.66.242.160
+Allow from 171.225.201.11
+Allow from 171.236.150.189
+Allow from 171.225.201.11
+Allow from 116.107.236.37
+Allow from 117.1.235.96
+Allow from 75.67.190.42
+Allow from 75.68.212.180
+Allow from 50.189.27.224
+Allow from 73.38.217.35
+Allow from 73.227.132.128
+Allow from 112.134.102.33
+Allow from 24.147.61.73
+Allow from 24.62.186.22
+Allow from 73.61.247.83
+Allow from 73.61.252.218
+Allow from 132.148.54.244
+Allow from 132.148.54.246
+Allow from 132.148.54.247
+Allow from 182.191.115.47
+Allow from 35.146.254.147
+Allow from 35.146.52.119
+Allow from 37.111.155.171
+Allow from 58.65.214.0
+Allow from 177.37.133.157
+Allow from 177.37.133.181
+Allow from 177.37.133.205
+Allow from 177.37.133.85
+Allow from 179.235.179.146
+Allow from 179.235.179.167
+Allow from 187.65.18.192
+Allow from 187.65.18.203
+Allow from 187.65.18.23
+Allow from 187.65.18.59
+Allow from 187.65.18.77
+Allow from 187.65.18.84
+Allow from 179.218.10.241
+Allow from 179.218.10.31
+Allow from 201.17.125.40
+Allow from 201.17.81.161
+Allow from 216.172.188.75
+Allow from 167.249.30.74
+Allow from 181.161.155.190
+Allow from 181.161.157.183
+Allow from 200.120.97.101
+Allow from 200.126.68.202
+Allow from 200.126.69.11
+Allow from 200.83.216.181
+Allow from 51.254.16.10
+Allow from 38.25.15.227
+Allow from 192.168.100.109
+Allow from 192.168.100.110
+Allow from 200.48.91.186
+Allow from 179.6.2.49
+Allow from 38.25.25.60
+Allow from 181.176.98.199
+Allow from 132.191.1.123
+Allow from 175.157.17.106
+Allow from 175.157.38.13
+Allow from 61.245.171.118
+Allow from 14.97.137.114
+Allow from 143.202.210.179
+Allow from 181.122.144.231
+Allow from 181.124.137.101
+Allow from 181.91.86.80
+Allow from 181.94.238.87
+Allow from 182.74.113.218
+Allow from 190.104.176.21
+Allow from 190.104.190.34
+Allow from 202.140.54.38
